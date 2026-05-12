@@ -12,7 +12,7 @@ app.get("/mahasiswa", (req, res) => {
 
 // about
 app.get("/about", (req, res) => {
-    res.send("Ini adalah halaman about");
+    res.send("Dibagian ini adalah halaman about");
 });
 
 // detail mahasiswa
